@@ -145,7 +145,7 @@ SHELL_PACKAGES=(
 THEME_PACKAGES=(
     "google-noto-sans-fonts|noto-sans-fonts" "google-noto-sans-cjk-fonts|noto-sans-cjk-fonts"
     "google-noto-coloremoji-fonts|noto-coloremoji-fonts|google-noto-emoji-fonts"
-    "google-rubik-fonts|rubik-fonts"
+    # Rubik is not packaged for openSUSE; the font step below fetches it from Google Fonts.
 )
 
 UTILITY_PACKAGES=(
